@@ -3,11 +3,14 @@
 //  LoginDemoPD
 //
 //  Created by Hugo Juárez on 02/04/19.
+
 //  Copyright © 2019 Hugo Juárez. All rights reserved.
 //
 
 import UIKit
 import CoreData
+import AWSMobileClient
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,6 +20,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        AWSMobileClient.sharedInstance().initialize { (userState, error) in
+            if let userState = userState {
+                print("UserState: \(userState.rawValue)")
+            } else if let error = error {
+                print("error: \(error.localizedDescription)")
+            }
+        }
         return true
     }
 
