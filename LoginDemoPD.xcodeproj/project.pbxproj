@@ -10,8 +10,19 @@
 		3AB3014B7A3EC4630385A6F5 /* Pods_LoginDemoPD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D3C5DAC0CF3A4E08F1A9B7 /* Pods_LoginDemoPD.framework */; };
 		3F2B54733F3033F7BA5A67B0 /* Pods_LoginDemoPDTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E334AA77037E6084F96DD08 /* Pods_LoginDemoPDTests.framework */; };
 		7ADD41B6D62F04906ED9FCDA /* Pods_LoginDemoPDUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AECF4F9E9DF1800FDD35861 /* Pods_LoginDemoPDUITests.framework */; };
+		8D036411225D050200255754 /* aPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D036410225D050200255754 /* aPI.swift */; };
+		8D036412225D071F00255754 /* AWSApiGatewayBridge.h in Sources */ = {isa = PBXBuildFile; fileRef = 8D758682225CE97100436A18 /* AWSApiGatewayBridge.h */; };
+		8D036413225D071F00255754 /* APICF4B1F1AResponseSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D758684225CE97100436A18 /* APICF4B1F1AResponseSchema.swift */; };
+		8D036414225D071F00255754 /* APICF4B1F1ARequestSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D758685225CE97100436A18 /* APICF4B1F1ARequestSchema.swift */; };
+		8D036415225D071F00255754 /* Bridging_Header.h in Sources */ = {isa = PBXBuildFile; fileRef = 8D758686225CE97100436A18 /* Bridging_Header.h */; };
+		8D036416225D071F00255754 /* APICF4B1F1AApicfbfaClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D758683225CE97100436A18 /* APICF4B1F1AApicfbfaClient.swift */; };
 		8D46D70C225512250017B31A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D46D70B225512250017B31A /* Constants.swift */; };
 		8D7380A02253CA4700A3FDB3 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 8D73809F2253CA4700A3FDB3 /* awsconfiguration.json */; };
+		8D758687225CFA4200436A18 /* AWSApiGatewayBridge.h in Resources */ = {isa = PBXBuildFile; fileRef = 8D758682225CE97100436A18 /* AWSApiGatewayBridge.h */; };
+		8D758688225CFA4200436A18 /* APICF4B1F1AApicfbfaClient.swift in Resources */ = {isa = PBXBuildFile; fileRef = 8D758683225CE97100436A18 /* APICF4B1F1AApicfbfaClient.swift */; };
+		8D758689225CFA4200436A18 /* APICF4B1F1AResponseSchema.swift in Resources */ = {isa = PBXBuildFile; fileRef = 8D758684225CE97100436A18 /* APICF4B1F1AResponseSchema.swift */; };
+		8D75868A225CFA4200436A18 /* APICF4B1F1ARequestSchema.swift in Resources */ = {isa = PBXBuildFile; fileRef = 8D758685225CE97100436A18 /* APICF4B1F1ARequestSchema.swift */; };
+		8D75868B225CFA4200436A18 /* Bridging_Header.h in Resources */ = {isa = PBXBuildFile; fileRef = 8D758686225CE97100436A18 /* Bridging_Header.h */; };
 		8DAF28AA2253BE31000A26BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF28A92253BE31000A26BD /* AppDelegate.swift */; };
 		8DAF28AC2253BE31000A26BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF28AB2253BE31000A26BD /* ViewController.swift */; };
 		8DAF28AF2253BE31000A26BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DAF28AD2253BE31000A26BD /* Main.storyboard */; };
@@ -45,8 +56,14 @@
 		2B6FCD7FB4D8812D766D23C7 /* Pods-LoginDemoPDUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginDemoPDUITests.release.xcconfig"; path = "Target Support Files/Pods-LoginDemoPDUITests/Pods-LoginDemoPDUITests.release.xcconfig"; sourceTree = "<group>"; };
 		30203C48D959E2D54B480242 /* Pods-LoginDemoPDTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginDemoPDTests.release.xcconfig"; path = "Target Support Files/Pods-LoginDemoPDTests/Pods-LoginDemoPDTests.release.xcconfig"; sourceTree = "<group>"; };
 		8AECF4F9E9DF1800FDD35861 /* Pods_LoginDemoPDUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginDemoPDUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D036410225D050200255754 /* aPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aPI.swift; sourceTree = "<group>"; };
 		8D46D70B225512250017B31A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		8D73809F2253CA4700A3FDB3 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		8D758682225CE97100436A18 /* AWSApiGatewayBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWSApiGatewayBridge.h; sourceTree = "<group>"; };
+		8D758683225CE97100436A18 /* APICF4B1F1AApicfbfaClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICF4B1F1AApicfbfaClient.swift; sourceTree = "<group>"; };
+		8D758684225CE97100436A18 /* APICF4B1F1AResponseSchema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICF4B1F1AResponseSchema.swift; sourceTree = "<group>"; };
+		8D758685225CE97100436A18 /* APICF4B1F1ARequestSchema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICF4B1F1ARequestSchema.swift; sourceTree = "<group>"; };
+		8D758686225CE97100436A18 /* Bridging_Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridging_Header.h; sourceTree = "<group>"; };
 		8DAF28A62253BE31000A26BD /* LoginDemoPD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginDemoPD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DAF28A92253BE31000A26BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DAF28AB2253BE31000A26BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -110,9 +127,22 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		8D758681225CE97100436A18 /* generated-src */ = {
+			isa = PBXGroup;
+			children = (
+				8D758682225CE97100436A18 /* AWSApiGatewayBridge.h */,
+				8D758684225CE97100436A18 /* APICF4B1F1AResponseSchema.swift */,
+				8D758685225CE97100436A18 /* APICF4B1F1ARequestSchema.swift */,
+				8D758686225CE97100436A18 /* Bridging_Header.h */,
+				8D758683225CE97100436A18 /* APICF4B1F1AApicfbfaClient.swift */,
+			);
+			path = "generated-src";
+			sourceTree = "<group>";
+		};
 		8DAF289D2253BE31000A26BD = {
 			isa = PBXGroup;
 			children = (
+				8D758681225CE97100436A18 /* generated-src */,
 				8D73809F2253CA4700A3FDB3 /* awsconfiguration.json */,
 				8DAF28A82253BE31000A26BD /* LoginDemoPD */,
 				8DAF28C02253BE33000A26BD /* LoginDemoPDTests */,
@@ -138,6 +168,7 @@
 			children = (
 				8DAF28A92253BE31000A26BD /* AppDelegate.swift */,
 				8DAF28AB2253BE31000A26BD /* ViewController.swift */,
+				8D036410225D050200255754 /* aPI.swift */,
 				8D46D70B225512250017B31A /* Constants.swift */,
 				8DFD266A225684D400FE0E34 /* Content.swift */,
 				8DAF28AD2253BE31000A26BD /* Main.storyboard */,
@@ -285,6 +316,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D758687225CFA4200436A18 /* AWSApiGatewayBridge.h in Resources */,
+				8D758688225CFA4200436A18 /* APICF4B1F1AApicfbfaClient.swift in Resources */,
+				8D758689225CFA4200436A18 /* APICF4B1F1AResponseSchema.swift in Resources */,
+				8D75868A225CFA4200436A18 /* APICF4B1F1ARequestSchema.swift in Resources */,
+				8D75868B225CFA4200436A18 /* Bridging_Header.h in Resources */,
 				8D7380A02253CA4700A3FDB3 /* awsconfiguration.json in Resources */,
 				8DAF28B72253BE32000A26BD /* LaunchScreen.storyboard in Resources */,
 				8DAF28B42253BE32000A26BD /* Assets.xcassets in Resources */,
@@ -362,6 +398,7 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-LoginDemoPD/Pods-LoginDemoPD-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSAPIGateway/AWSAPIGateway.framework",
 				"${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework",
 				"${BUILT_PRODUCTS_DIR}/AWSAuthUI/AWSAuthUI.framework",
 				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework",
@@ -374,6 +411,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAPIGateway.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthCore.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthUI.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProvider.framework",
@@ -416,8 +454,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D036412225D071F00255754 /* AWSApiGatewayBridge.h in Sources */,
+				8D036413225D071F00255754 /* APICF4B1F1AResponseSchema.swift in Sources */,
+				8D036414225D071F00255754 /* APICF4B1F1ARequestSchema.swift in Sources */,
+				8D036415225D071F00255754 /* Bridging_Header.h in Sources */,
+				8D036416225D071F00255754 /* APICF4B1F1AApicfbfaClient.swift in Sources */,
 				8DAF28AC2253BE31000A26BD /* ViewController.swift in Sources */,
 				8DAF28B22253BE31000A26BD /* LoginDemoPD.xcdatamodeld in Sources */,
+				8D036411225D050200255754 /* aPI.swift in Sources */,
 				8DAF28AA2253BE31000A26BD /* AppDelegate.swift in Sources */,
 				8DFD266B225684D400FE0E34 /* Content.swift in Sources */,
 				8D46D70C225512250017B31A /* Constants.swift in Sources */,
@@ -605,6 +649,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = tsmx.LoginDemoPD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "generated-src/Bridging_Header.h";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "generated-src/Bridging_Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -624,6 +670,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = tsmx.LoginDemoPD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "generated-src/Bridging_Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -5,9 +5,10 @@ target 'LoginDemoPD' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
 
-  pod 'AWSUserPoolsSignIn', '~> 2.7.0'
-  pod 'AWSAuthUI', '~> 2.7.0'
-  pod 'AWSMobileClient', '~> 2.7.0'
+  pod 'AWSUserPoolsSignIn'
+  pod 'AWSAuthUI'
+  pod 'AWSMobileClient'
+  pod 'AWSAPIGateway'
 
 
   # Pods for LoginDemoPD

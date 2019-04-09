@@ -1,0 +1,36 @@
+{
+    "paths": [
+        {
+            "name": "/items",
+            "lambdaFunction": "logindemopd98950106",
+            "privacy": {
+                "protected": true,
+                "auth": "rw",
+                "unauth": "rw"
+            }
+        }
+    ],
+    "resourceName": "apicf4b1f1a",
+    "apiName": "apicf4b1f1a",
+    "functionArns": [
+        {
+            "lambdaFunction": "logindemopd98950106"
+        }
+    ],
+    "privacy": {
+        "auth": 1,
+        "unauth": 1,
+        "authRoleName": "logindemopd-20190402104755-authRole",
+        "unAuthRoleName": "logindemopd-20190402104755-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "logindemopd98950106",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
